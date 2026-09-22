@@ -1,0 +1,142 @@
+# ================================
+# Java / Compiled output
+# ================================
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# ================================
+# Maven
+# ================================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ================================
+# Gradle
+# ================================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ================================
+# Spring Boot / Application config
+# ================================
+# Never commit real secrets
+application-local.properties
+application-local.yml
+application-local.yaml
+application-dev.properties
+application-dev.yml
+application-prod.properties
+application-prod.yml
+*.env
+.env
+.env.*
+!.env.example
+
+# ================================
+# IDE - IntelliJ IDEA
+# ================================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+
+# ================================
+# IDE - Eclipse / STS
+# ================================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+tmp/
+
+# ================================
+# IDE - VS Code
+# ================================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# ================================
+# IDE - NetBeans
+# ================================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ================================
+# OS files
+# ================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ================================
+# Logs
+# ================================
+*.log
+logs/
+log/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ================================
+# Testing
+# ================================
+**/test-output/
+**/surefire-reports/
+**/failsafe-reports/
+**/jacoco.exec
+**/jacoco-aggregate.exec
+**/site/jacoco/
+
+# ================================
+# Database / H2 / SQLite (local dev)
+# ================================
+*.db
+*.sqlite
+*.sqlite3
+*.mv.db
+*.trace.db
+
+# ================================
+# Misc
+# ================================
+*.pid
+*.seed
+*.pid.lock
+*.tmp
+*.swp
+*~
